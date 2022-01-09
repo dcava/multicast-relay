@@ -1,6 +1,8 @@
 # Use alpine base image
 FROM alpine
 
+CMD ["bin/sh"]
+
 # Copy the current directory contents into the container at /
 COPY start.sh /start.sh
 
