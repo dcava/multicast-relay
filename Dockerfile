@@ -17,7 +17,7 @@ RUN apk update \
 ENV PATH /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 ENV LANG C.UTF-8
 ENV TZ Australia/Brisbane
-ENV INTERFACES br0 br50
+ENV INTERFACES br0 br30 br40 b200
 ENV OPTS "--verbose"
 
 # Run  when the container launches
