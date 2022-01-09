@@ -16,7 +16,7 @@ RUN apk update \
 # Define environment variable
 ENV PATH /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 ENV LANG C.UTF-8
-ENV TZ America/Los_Angeles
+ENV TZ Australia/Brisbane
 ENV INTERFACES br0 br50
 ENV OPTS "--verbose"
 
